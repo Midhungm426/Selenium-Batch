@@ -54,20 +54,14 @@ public class Locators extends Base
 		WebElement cssSelectorTagAttribute3 = driver.findElement(By.cssSelector("a[class='navbar-brand']"));
 		WebElement cssSelectorTagAttribute4 = driver.findElement(By.cssSelector("input[id='single-input-field']"));
 		WebElement cssSelectorTagAttribute5 = driver.findElement(By.cssSelector("button[id='button-two']"));
-		
-		WebElement xpath = driver.findElement(By.xpath("//a[@href='radio-button-demo.php']"));
-		WebElement xpath2 = driver.findElement(By.xpath("//a[@href='check-box-demo.php']"));
-		WebElement xpath3 = driver.findElement(By.xpath("//a[@href='select-input.php']"));
-		WebElement xpath4 = driver.findElement(By.xpath("//div[@id='message-two']"));
-		WebElement xpath5 = driver.findElement(By.xpath("//input[@id='value-a']"));
-		
+					
 		WebElement tagName = driver.findElement(By.tagName("div"));
 		WebElement tagName2 = driver.findElement(By.tagName("input"));
 		WebElement tagName3 = driver.findElement(By.tagName("button"));
 		WebElement tagName4 = driver.findElement(By.tagName("a"));
-		WebElement tagName5 = driver.findElement(By.tagName("span"));		
-			
-	}
+		WebElement tagName5 = driver.findElement(By.tagName("span"));	
+		
+		}
 
 	public static void main(String[] args) 
 	{
@@ -75,7 +69,5 @@ public class Locators extends Base
 		locator.initializeBrowser();
 		locator.locators();
 		locator.browserQuit();
-
 	}
-
 }
